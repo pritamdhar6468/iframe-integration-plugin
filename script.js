@@ -15,6 +15,6 @@ if (iframeUrl) {
   // Create a hover button on top of the iFrame
   const button = document.createElement('button');
   button.textContent = 'Click me';
-  button.setAttribute('style', 'position: absolute; top: 10px; right: 10px; z-index: 999;');
+  button.setAttribute('style', 'position: absolute; color: black top: 10px; right: 10px; z-index: 999;');
   iframe.contentWindow.document.body.appendChild(button);
 }
